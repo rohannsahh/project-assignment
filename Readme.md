@@ -46,7 +46,7 @@ The project is organized as a monorepo with two main directories:
 ## Or Run with Docker  
   
  **Build and start containers:**  
-   ```bash  
+    ```bash  
     docker-compose up --build
   
 
