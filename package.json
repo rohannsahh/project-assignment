@@ -1,0 +1,17 @@
+{
+  "name": "blackhouse",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "frontend:dev": "cd apps/frontend && next dev",
+    "server:dev": "cd apps/server &&  mywork\\Scripts\\activate && cd assignment && python manage.py runserver",
+    "dev": "concurrently \"npm run frontend:dev\" \"npm run server:dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "turbo": "^2.1.1"
+  }
+}
