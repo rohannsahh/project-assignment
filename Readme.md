@@ -27,7 +27,12 @@ The project is organized as a monorepo with two main directories:
    ```bash
    git clone https://github.com/rohannsahh/blackhouse.git
    cd blackhouse
-  
+
+
+
+* create virtual environment in server folder
+
+
 2. **Install dependencies and start development servers:**     
    ```bash  
    npm install
@@ -41,9 +46,12 @@ The project is organized as a monorepo with two main directories:
 ## Or Run with Docker  
   
  **Build and start containers:**  
-    ```bash  
+   ```bash  
     docker-compose up --build
   
+
+
+
 This command will:  
   
 * Build Docker images for the frontend and backend.  
