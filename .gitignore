@@ -116,3 +116,9 @@ Thumbs.db
 
 # Docker
 docker-compose.override.yml
+
+
+# Virtual environment
+venv/
+env/
+mywork/
