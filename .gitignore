@@ -101,6 +101,7 @@ staticfiles/
 # Virtual environment
 venv/
 env/
+mywork/
 *.egg-info/
 
 # IDE/editor files
@@ -114,11 +115,5 @@ env/
 # Windows
 Thumbs.db
 
-# Docker
-docker-compose.override.yml
 
 
-# Virtual environment
-venv/
-env/
-mywork/
