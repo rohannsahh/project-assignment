@@ -88,5 +88,6 @@ This command will:
 * TypeScript: Used in the Next.js app for type safety.  
 * Docker: For easy setup and deployment of both frontend and backend.  
 * Testing: Basic unit or integration tests.  
-* State Management: Redux or similar for managing frontend data.  
+* State Management: Redux or similar for managing frontend data. 
+* Monorepo : for easy setup and install locally 
   
